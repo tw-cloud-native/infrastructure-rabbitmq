@@ -32,7 +32,7 @@ spec:
     k8s-app: {{service}}
   ports:
   - port: 5672
-    name: http
+    name: tcp
     protocol: TCP
   - port: 15672
     name: http
